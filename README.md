@@ -2,6 +2,8 @@
 
 Here you can test your password and see what AI thinks about it. You will learn some philosophy here too
 
+https://judgemypassword.onrender.com/
+
 ## Features
 
 -  AI-powered CAPTCHA validation using philosophical questions
@@ -64,6 +66,6 @@ Here you can test your password and see what AI thinks about it. You will learn 
 - **Backend**: Node.js, Express.js
 - **Frontend**: HTML, CSS, JavaScript
 - **AI**: Hack Club AI Proxy (Qwen 3-32B)
-- **Hosting**: Platform-agnostic (works on any Node.js hosting)
+- **Hosting**: Render
 
 
