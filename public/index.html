@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JudgeMyPassword</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Hero">
+      <h1>Judge My Password</h1>
+      <p class="p1">BUT FIRST</p>
+      <p class="p2">Solve This:</p>
+      <form id="questionForm">
+        <textarea
+          id="captchaInput"
+          placeholder="If everything has a cause, what is the cause of the first cause?"
+          required
+        ></textarea>
+
+        <button class="submitButton" type="submit">Submit</button>
+      </form>
+      <p>Btw you have to solve this anyway</p>
+      <img
+        src="/images/einstein.jpg"
+        alt="Captcha Image"
+        width="250"
+        height="250"
+      />
+    </div>
+    <div class="music">
+      <button id="playMusic">Play Music</button>
+    </div>
+    <div id="musicContainer"></div>
+    <div id="passwordSection" style="display: none">
+      <h2>Enter Password</h2>
+
+      <input type="password" id="passwordInput" placeholder="Enter password" />
+      <button onclick="checkPassword()">Check</button>
+
+      <div id="roastBox"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
